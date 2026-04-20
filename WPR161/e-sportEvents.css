@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #a1c4fd, #c2e9fb);
+  color: #117de9;
+  min-height: 900px;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 42pt;
+  margin-bottom: 8px;
+  color: #fc0054;
+  letter-spacing: 2px;
+  text-decoration: wavy underline #ff4081;
+}
+
+p.subtitle {
+  text-align: center;
+  font-size: 18pt;
+  color: #d63384;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(580px, 1fr));
+  gap: 30px;
+}
+
+.game-card {
+  background: white;
+  border-radius: 28px;
+  overflow: hidden;
+  border: 6px solid rgb(0, 0, 0);
+  box-shadow: 0 15px 0 black, 0 20px 30px rgba(255, 0, 0, 0.3);
+}
+
+.card-content {
+  padding: 28px;
+  text-align: center;
+}
+
+.game-card h2 {
+  font-size: 25.2pt;
+  margin-bottom: 14px;
+  color: #e91e63;
+  text-shadow: 3px 3px 0px #fff;
+}
+
+.format {
+  display: inline-block;
+  background: #ffeb3b;
+  color: #060a0e;
+  padding: 8px 22px;
+  border-radius: 50px;
+  font-size: 13.2pt;
+  font-weight: bold;
+  border: 4px solid rgb(0, 0, 0);
+  margin-bottom: 20px;
+  box-shadow: 0 4px 0 rgb(0, 0, 0);
+}
+
+.invite {
+  font-size: 15pt;
+  font-weight: 700;
+  color: #ff4006;
+  margin-bottom: 18px;
+  line-height: 1.4;
+}
+
+.description {
+  color: black;
+  line-height: 1.75;
+  font-size: 21pt;
+}
+
+.back-button {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 25.2pt;
+  margin-bottom: 14px;
+  color: #e91e63;
+  text-shadow: 3px 3px 0px #fff;
+}
+
+.back-button a {
+  text-decoration: none;
+
+  color: #e91e63;
+  border: 4px solid #e91e63;
+  padding: 12px 28px;
+  border-radius: 9px;
+  background: white;
+  box-shadow: 0 6px 0 #f10654;
+}
+
+.back-button a:hover {
+  background-color: #e91e63;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 2px 0 #f10654;
+  border-color: white;
+}
