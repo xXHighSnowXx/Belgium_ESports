@@ -24,24 +24,37 @@ position: sticky;}
 
 h1 {
     margin: 0;
+    padding: 20px;
+    border-bottom: 1px solid black;
 }
 
 h2 {
-    margin: 0;
+    margin: 0px 0px 20px 0px;
+    font-size: xx-large;
 }
 
 p {
     margin: 0;
 }
 
-#sect1 {
+#sect1{display: red;
+display: flex;}
+
+#sub-sect{
     background-color: aquamarine;
     display: flex;
+    width: 90%;
+    gap: 50px;
+    margin: auto;
+    margin-top: 40px;
 }
 
 #sect2 {
-    background-color: pink;
+    /* background-color: pink; */
     display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
 }
 
 div#first-paragraph {
@@ -53,9 +66,17 @@ div#second-paragraph {
 }
 
 div#games {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     width: 120%;
 }
+
+div#game-images{display: flex;
+flex-wrap: wrap;
+gap: 10px;
+justify-content: space-around;}
+
+div img{width: 350px;
+height: 200px;}
 
 div#organisers {
     background-color: powderblue;
@@ -65,6 +86,10 @@ div#organisers {
 section#register {
     background-color: blueviolet;
     height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 footer {
@@ -72,3 +97,11 @@ footer {
     color: white;
     height: 100px;
 }
+
+
+
+
+
+
+
+
