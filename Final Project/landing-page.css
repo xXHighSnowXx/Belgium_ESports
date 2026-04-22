@@ -9,7 +9,7 @@ button{height: 30px;}
 h1 {
     margin: 0;
     padding: 20px;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 h2 {
@@ -33,17 +33,19 @@ display: flex;}
     margin-top: 50px;
 }
 
-#sect2 {
+#sect3 {
     /* background-color: pink; */
     display: flex;
     width: 85%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 div#first-paragraph {
     /* background-color: skyblue; */
     width: 100%;
+    border-right: 1.5px solid black;
+    padding: 0px 40px 0px 0px;
 }
 
 div#second-paragraph {
@@ -79,7 +81,12 @@ section#register {
     margin-top: 40px;
 }
 
-
+div.event-date{
+    padding: 10px;
+    margin-top: 40px;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
 
 section#register{font-weight: 700;
 font-size: x-large;
@@ -88,14 +95,20 @@ flex-direction: column;}
 
 
 section div.register{font-weight: 700;
-margin-top: 10px}
+margin-top: 20px}
 
-p.special{
+p.special a{
+text-decoration: none;
 padding: 5px;
 border: solid 2px coral;
-border-radius: 20px;}
+border-radius: 20px;
+color: black;}
+
 
 /* not me */
+.navbar-toggle{
+    display: none;
+}
 .hamburger {
     position: fixed;
     top: 20px;
