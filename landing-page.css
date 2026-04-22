@@ -2,14 +2,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 0;
+    background: linear-gradient(135deg, #041519, #0a3f46, #057499, #0b0e10);
+    color: white;
 }
-
-button{height: 30px;}
 
 h1 {
     margin: 0;
     padding: 20px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid turquoise;
 }
 
 h2 {
@@ -44,7 +44,7 @@ display: flex;}
 div#first-paragraph {
     /* background-color: skyblue; */
     width: 100%;
-    border-right: 1.5px solid black;
+    border-right: 1.5px solid turquoise;
     padding: 0px 40px 0px 0px;
 }
 
@@ -84,8 +84,8 @@ section#register {
 div.event-date{
     padding: 10px;
     margin-top: 40px;
-    border-top: solid 1px black;
-    border-bottom: solid 1px black;
+    border-top: solid 1px turquoise;
+    border-bottom: solid 1px turquoise;
 }
 
 section#register{font-weight: 700;
@@ -95,20 +95,31 @@ flex-direction: column;}
 
 
 section div.register{font-weight: 700;
-margin-top: 20px}
+margin-top: 30px;
+margin-bottom: 10px;}
 
 p.special a{
 text-decoration: none;
-padding: 5px;
-border: solid 2px coral;
-border-radius: 20px;
-color: black;}
+text-shadow: 3px 3px 0px turquoise;
+padding: 12px 28px;
+border: solid 4px turquoise;
+border-radius: 9px;
+color: black;
+background-color: white;
+box-shadow: 6px turquoise;}
 
+p.special a:hover{
+    background-color: turquoise;
+    color: white;
+    box-shadow: 2px turquoise;
+    border-color: white;
+}
 
 /* not me */
-.navbar-toggle{
+.navbar-toggle {
     display: none;
 }
+
 .hamburger {
     position: fixed;
     top: 20px;
@@ -181,11 +192,7 @@ color: black;}
     background-color: rgba(252, 255, 255, 0.595);
 }
 
-@media (max-width: 768px) {
-    .hamburger {
-        display: flex;
-    }
-}
+
 
 
 footer {
